@@ -1,14 +1,18 @@
-code to get all color name in css formate name from https://flatuicolors.com/ of specific country
+Code to get all color name in css formate name from https://flatuicolors.com/ of specific country
 
------by row first-----
+<h1>-----by Row First-----</h1>
+
+```
 c = document.getElementsByClassName("color");
 ar=[]
 for(i=0;i<c.length;i++){
     ar.push("--"+c[i].innerText.toLowerCase().replaceAll(" ","-").replaceAll("'",""));
 }
 console.log(ar.toLocaleString().replaceAll(",","\n"))
+```
+<h1>-----by Column First-----</h1>
 
------by column first-----
+```
 c = document.getElementsByClassName("color");
 ar=[]
 for(i=0;i<5;i++){
@@ -17,3 +21,4 @@ for(i=0;i<5;i++){
     }
 }
 console.log(ar.toLocaleString().replaceAll(",","\n"))
+```
