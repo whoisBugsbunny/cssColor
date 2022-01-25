@@ -22,3 +22,7 @@ for(i=0;i<5;i++){
 }
 console.log(ar.toLocaleString().replaceAll(",","\n"))
 ```
+
+bootstrap 4 https://getbootstrap.com/docs/4.0/getting-started/download/
+
+bootstrap 5 https://getbootstrap.com/docs/5.0/getting-started/download/
